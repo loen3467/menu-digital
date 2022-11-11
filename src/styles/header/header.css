@@ -1,0 +1,15 @@
+.header{
+    color: white;
+    background-color: #191919;
+}
+.header-ul{
+    padding: 15px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.header li {
+    display: inline-block;
+}
+
+
