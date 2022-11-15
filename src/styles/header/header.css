@@ -1,15 +1,13 @@
 .header{
     color: white;
+}
+.header-top{
     background-color: #191919;
-}
-.header-ul{
-    padding: 15px;
-    width: auto;
+    padding-top: 10px;
+    margin-bottom: -3px;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
-.header li {
-    display: inline-block;
-}
+
 
 

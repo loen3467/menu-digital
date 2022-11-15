@@ -1,10 +1,10 @@
 import React from 'react'
-import '../../styles/header/vector.css'
-//<img class='image' src="../../assets/img/Vector.jpg" alt="" />
+import vector from '../../assets/img/vector.svg'
 
 function Vector() {
   return (
-    <div className='vector'>
+    <div>
+      <img src={vector}/>
     </div>
   )
 }

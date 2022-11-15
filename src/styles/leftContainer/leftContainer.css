@@ -1,11 +1,6 @@
 .left-container{
     background-color: #BF3535;
     width: 203px;
-    height: 672px;
-    margin-left: 10px;
-    margin-top: 10px;
+    height: 650px;
     border-radius: 15px;
-}
-.left-container li{
-    display: block;
 }

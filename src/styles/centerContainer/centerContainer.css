@@ -1,0 +1,7 @@
+.center-container{
+    background-color: rgba(248, 248, 248, 0.67);;
+    width: 387px;
+    height: 650px;
+    border-radius: 20px;
+    display: flex;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-//<img src={carrito} width='25px' />
+import carrito from '../../assets/img/carrito.svg'
 
 function Carrito() {
   return (
     <div>
-      carrito
+      <img src={carrito} />
     </div>
   )
 }

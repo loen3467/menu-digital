@@ -1,17 +1,16 @@
 import React from 'react'
-import { LeftSection } from './LeftSection'
+import { LSRed } from './LSRed'
+import { LSPink } from './LSPink'
 import '../../styles/leftContainer/leftContainer.css'
 
 function LeftContainer() {
   return (
     <div className='left-container'>
-      <ul>
-        <li><LeftSection /></li>
-        <li><LeftSection /></li>
-        <li><LeftSection /></li>
-        <li><LeftSection /></li>
-        <li><LeftSection /></li>
-      </ul>
+      <LSPink/>
+      <LSRed/>
+      <LSRed/>
+      <LSRed/>
+      <LSRed/>
     </div>
   )
 }

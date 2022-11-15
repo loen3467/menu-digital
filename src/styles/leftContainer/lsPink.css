@@ -1,8 +1,7 @@
-.section{
+.ls-pink{
+    border-radius: 15px 15px 0 0;
     color: white;
-    margin-left: -40px;
-    background-color: #BF3535;
-    width: auto;
+    background-color: #FF939A;
     height: 102.32px;
     border-bottom: 3px solid white;
     display: flex;

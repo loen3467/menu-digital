@@ -1,16 +1,14 @@
 import React from 'react'
-import { NavMenuAtom } from './NavMenuAtom'
+import { NVRed } from './NVRed'
 import '../../styles/header/navMenu.css'
 
 function NavMenu() {
   return (
     <div className='nav-menu'>
-      <ul>
-        <li><NavMenuAtom /></li>
-        <li><NavMenuAtom /></li>
-        <li><NavMenuAtom /></li>
-        <li><NavMenuAtom /></li>
-      </ul>
+      <NVRed/>
+      <NVRed/>
+      <NVRed/>
+      <NVRed/>
     </div>
   )
 }

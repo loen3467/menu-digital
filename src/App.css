@@ -1,9 +1,14 @@
 *{
     margin: 0;
-}
-body{
-    font-family: Carter One;
+    font-family: 'Carter One', 'Saint Serif';
     font-size: 32px;
     font-weight: 400;
+}
+body{
     background-color: #FFC700;
+}
+.container-body{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
