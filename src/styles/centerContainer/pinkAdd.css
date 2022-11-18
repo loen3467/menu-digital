@@ -1,0 +1,13 @@
+.pink-add{
+    margin-bottom: -1px;
+    margin-right: -1px;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: #FF939A;
+    color: white;
+    border-radius: 13px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

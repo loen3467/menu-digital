@@ -1,0 +1,16 @@
+.pink-food{
+    width: 387px;
+    height: 120px;
+    background: linear-gradient(90deg, #FF939A 44.3%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 25px 0 0 25px;
+    border: 3px solid #FF939A;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pf-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

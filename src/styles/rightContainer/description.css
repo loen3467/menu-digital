@@ -1,0 +1,13 @@
+.rc-description{
+    padding: 10px;
+    background: rgba(90, 217, 217, 0.32);
+    width: 500px;
+    height: 130px;
+    border-radius: 15px 15px 0 0;
+}
+.rc-description .titulo{
+    font-size: 30px;
+}
+.rc-description .descripcion{
+    font-size: 26px;
+}

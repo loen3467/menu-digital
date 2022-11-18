@@ -1,11 +1,12 @@
 import React from 'react'
 import { NVRed } from './NVRed'
+import { NVPink } from './NVPink'
 import '../../styles/header/navMenu.css'
 
 function NavMenu() {
   return (
     <div className='nav-menu'>
-      <NVRed/>
+      <NVPink/>
       <NVRed/>
       <NVRed/>
       <NVRed/>
