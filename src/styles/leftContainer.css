@@ -1,0 +1,27 @@
+.left-container {
+    background-color: #BF3535;
+    width: 203px;
+    height: 650px;
+    border-radius: 15px;
+}
+
+.ls-red {
+    color: white;
+    background-color: #BF3535;
+    height: 102.32px;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ls-pink {
+    border-radius: 15px 15px 0 0;
+    color: white;
+    background-color: #FF939A;
+    height: 102.32px;
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
