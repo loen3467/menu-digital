@@ -1,6 +1,6 @@
 import React from "react";
 import { YellowFood } from "./YellowFood";
-import "../styles/centerContainer.css";
+import "./styles/centerContainer.css";
 
 function CenterContainer() {
   // const platos=[{

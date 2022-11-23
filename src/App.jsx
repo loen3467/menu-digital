@@ -1,20 +1,10 @@
-import { Header } from "./components/Header.jsx";
-import { LeftContainer } from "./components/LeftContainer.jsx";
-import { CenterContainer } from "./components/CenterContainer.jsx";
-import { RightContainer } from "./components/RightContainer.jsx";
+import { Carta } from "./pages/Carta";
 import "./App.css";
 
 function App() {
   return (
-    <div className="container">
-      <div>
-        <Header />
-      </div>
-      <div className="container-body">
-        <LeftContainer />
-        <CenterContainer />
-        <RightContainer />
-      </div>
+    <div>
+      <Carta />
     </div>
   );
 }

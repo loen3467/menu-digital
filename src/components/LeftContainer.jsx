@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/leftContainer.css";
+import "./styles/leftContainer.css";
 
 function LeftContainer() {
   return (

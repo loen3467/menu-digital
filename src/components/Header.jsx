@@ -1,9 +1,9 @@
 import React from "react";
 import { NavMenu } from "./NavMenu";
-import logo from "../assets/img/logo.svg";
-import carrito from "../assets/img/carrito.svg";
-import vector from "../assets/img/vector.svg";
-import "../styles/header.css";
+import logo from "../assets/image/logo.svg";
+import carrito from "../assets/image/carrito.svg";
+import vector from "../assets/image/vector.svg";
+import "./styles/header.css";
 
 function Header() {
   return (

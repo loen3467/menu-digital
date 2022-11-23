@@ -1,6 +1,6 @@
 import React from "react";
-import plato from "../assets/img/plato.svg";
-import "../styles/yellowFood.css";
+import plato from "../assets/image/plato.svg";
+import "./styles/yellowFood.css";
 
 function YellowFood() {
   return (

@@ -1,14 +1,10 @@
-*{
+* {
     margin: 0;
     font-family: 'Carter One', 'Saint Serif';
     font-size: 32px;
     font-weight: 400;
 }
-body{
+
+body {
     background-color: #FFC700;
-}
-.container-body{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
 }

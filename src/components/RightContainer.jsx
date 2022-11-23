@@ -1,7 +1,7 @@
 import React from "react";
-import bigpollo from "../assets/img/big_pollo.svg";
-import mediumPollo from "../assets/img/medium_pollo.svg";
-import "../styles/rightContainer.css";
+import bigpollo from "../assets/image/big_pollo.svg";
+import mediumPollo from "../assets/image/medium_pollo.svg";
+import "./styles/rightContainer.css";
 
 function RightContainer() {
   return (
