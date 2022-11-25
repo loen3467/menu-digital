@@ -19,7 +19,7 @@ import { Pedido } from "../pages/Pedido";
 
 import "./styles/rightContainer.css";
 
-function LeftContainer() {
+function Body() {
   //Left and Center Container
 
   const [foods, setFoods] = useState(MenuItems);
@@ -190,4 +190,4 @@ function LeftContainer() {
   );
 }
 
-export { LeftContainer };
+export { Body };

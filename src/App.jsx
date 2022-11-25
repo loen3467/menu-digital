@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { LeftContainer } from "./components/LeftContainer";
+import { Body } from "./components/Body";
 
 function App() {
   return (
     <div>
-      <LeftContainer />
+      <Body />
     </div>
   );
 }
