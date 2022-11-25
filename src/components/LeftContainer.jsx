@@ -1,21 +1,22 @@
 import React, { useState } from "react";
 import "./styles/leftContainer.css";
 import "./styles/centerContainer.css";
+import "./styles/header.css";
+import "./styles/navMenu.css";
 import logo from "../assets/image/logo.svg";
 import carrito from "../assets/image/carrito.svg";
 import vector from "../assets/image/vector.svg";
-import "./styles/header.css";
-import "./styles/navMenu.css";
 import { MenuItems } from "./MenuItems";
 import { Descriptions } from "./Descriptions";
+import { NavbarItems } from "./NavbarItems";
 
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import { Inicio } from "../pages/Inicio";
+import { Navbar } from "../pages/Navbar";
 import { Voto } from "../pages/Voto";
 import { Pedido } from "../pages/Pedido";
 
 import "./styles/rightContainer.css";
-import { NavbarItems } from "./NavbarItems";
 
 function LeftContainer() {
   //Left and Center Container
@@ -59,18 +60,27 @@ function LeftContainer() {
             </Link>
 
             <div className="nav-menu">
-              <button onClick={() => filterResult3("Carta")} className="nv-red">
-                Carta
-              </button>
-              <button
-                onClick={() => filterResult3("Bebidas")}
-                className="nv-red"
-              >
-                Bebidas
-              </button>
-              <button onClick={() => filterResult3("Info")} className="nv-red">
-                Info
-              </button>
+              <Link to="/navbar">
+                <button
+                  onClick={() => filterResult3("Carta")}
+                  className="nv-red"
+                >
+                  Carta
+                </button>
+                <button
+                  onClick={() => filterResult3("Bebidas")}
+                  className="nv-red"
+                >
+                  Bebidas
+                </button>
+                <button
+                  onClick={() => filterResult3("Info")}
+                  className="nv-red"
+                >
+                  Info
+                </button>
+              </Link>
+
               <Link to="voto" className="nv-red">
                 Voto
               </Link>
@@ -84,6 +94,7 @@ function LeftContainer() {
         </div>
         <Routes>
           <Route path="/" element={<Inicio />} />
+          <Route path="/navbar" element={<Navbar />} />
           <Route path="voto" element={<Voto />} />
           <Route path="pedido" element={<Pedido />} />
           <Route path="*" element={<div>ERROR 404</div>} />
