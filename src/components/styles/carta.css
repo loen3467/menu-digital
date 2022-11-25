@@ -3,3 +3,23 @@
     align-items: flex-end;
     justify-content: space-evenly;
 }
+
+.fond-inicio img {
+    width: 1194px;
+    height: 834px;
+    margin-top: -150px;
+    position: relative;
+    z-index: -10;
+}
+
+.inicio {
+    position: absolute;
+    width: 265px;
+    height: 109px;
+    left: 484px;
+    top: 660px;
+    background: #FE8D08;
+    border-radius: 30px;
+    text-align: center;
+
+}

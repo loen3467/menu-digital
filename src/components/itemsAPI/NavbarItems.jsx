@@ -37,7 +37,7 @@ const NavbarItems = [
   {
     id: 8,
     category: "Info",
-    title: "ElRestaurante",
+    title: "El Restaurante",
   },
   {
     id: 9,
@@ -46,7 +46,7 @@ const NavbarItems = [
   },
   {
     id: 10,
-    category: "Bebidas",
+    category: "Info",
     title: "Patrocinadores",
   },
 ];

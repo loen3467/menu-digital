@@ -67,20 +67,33 @@ function Body() {
       <BrowserRouter>
         <div className="header">
           <div className="header-top">
-            <Link to="/" onClick={() => filterResult2(11)}>
+            <Link
+              to="/"
+              onClick={() => (
+                filterResult3("home"), filterResult2("home"), filterResult(222)
+              )}
+            >
               <img src={logo} />
             </Link>
 
             <div className="nav-menu">
               <Link to="/navbar">
                 <button
-                  onClick={() => filterResult3("Carta")}
+                  onClick={() => (
+                    filterResult3("Carta"),
+                    filterResult("Entrada"),
+                    filterResult2(11)
+                  )}
                   className="nv-red"
                 >
                   Carta
                 </button>
                 <button
-                  onClick={() => filterResult3("Bebidas")}
+                  onClick={() => (
+                    filterResult3("Bebidas"),
+                    filterResult("Bebidas Frias"),
+                    filterResult2(51)
+                  )}
                   className="nv-red"
                 >
                   Bebidas
@@ -186,7 +199,7 @@ function Body() {
                     <div>
                       <img src={smallImage1} />
                     </div>
-                    <div>
+                    <div className="centro">
                       <img src={smallImage2} />
                     </div>
                     <div>
