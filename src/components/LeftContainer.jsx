@@ -6,13 +6,14 @@ import "./styles/navMenu.css";
 import logo from "../assets/image/logo.svg";
 import carrito from "../assets/image/carrito.svg";
 import vector from "../assets/image/vector.svg";
-import { MenuItems } from "./MenuItems";
-import { Descriptions } from "./Descriptions";
-import { NavbarItems } from "./NavbarItems";
+import { MenuItems } from "./itemsAPI/MenuItems";
+import { Descriptions } from "./itemsAPI/Descriptions";
+import { NavbarItems } from "./itemsAPI/NavbarItems";
 
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import { Inicio } from "../pages/Inicio";
 import { Navbar } from "../pages/Navbar";
+import { Info } from "../pages/Info";
 import { Voto } from "../pages/Voto";
 import { Pedido } from "../pages/Pedido";
 
@@ -73,15 +74,12 @@ function LeftContainer() {
                 >
                   Bebidas
                 </button>
-                <button
-                  onClick={() => filterResult3("Info")}
-                  className="nv-red"
-                >
-                  Info
-                </button>
+              </Link>
+              <Link to="/info">
+                <button className="nv-red">Info</button>
               </Link>
 
-              <Link to="voto" className="nv-red">
+              <Link to="/voto" className="nv-red">
                 Voto
               </Link>
             </div>
@@ -94,7 +92,8 @@ function LeftContainer() {
         </div>
         <Routes>
           <Route path="/" element={<Inicio />} />
-          <Route path="/navbar" element={<Navbar />} />
+          <Route path="navbar" element={<Navbar />} />
+          <Route path="info" element={<Info />} />
           <Route path="voto" element={<Voto />} />
           <Route path="pedido" element={<Pedido />} />
           <Route path="*" element={<div>ERROR 404</div>} />

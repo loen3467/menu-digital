@@ -5,16 +5,7 @@ import { RightContainer } from "../components/RightContainer";
 import "../components/styles/carta.css";
 
 function Info() {
-  return (
-    <div className="container">
-      <div className="container-body">
-        <LeftContainer />
-        <CenterContainer />
-        <RightContainer />
-      </div>
-      INFO
-    </div>
-  );
+  return <div>INFO</div>;
 }
 
 export { Info };
