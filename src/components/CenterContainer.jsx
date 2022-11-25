@@ -25,13 +25,14 @@ function CenterContainer() {
   ); */
 
   return (
-    <div className="center-container">
-      - Entrada -
-      <YellowFood />
-      <YellowFood />
-      <YellowFood />
-      <YellowFood />
-    </div>
+    <div></div>
+    // <div className="center-container">
+    //   - Entrada -
+    //   <YellowFood />
+    //   <YellowFood />
+    //   <YellowFood />
+    //   <YellowFood />
+    // </div>
   );
 }
 

@@ -14,10 +14,17 @@
 }
 
 .nv-red {
+    color: white;
     padding: 10px;
     border-radius: 15px;
     margin-right: 30px;
     width: 150px;
     text-align: center;
     background-color: #BF3535;
+    text-decoration: none;
+}
+
+.nv-red:hover {
+    background-color: #FF939A;
+    color: black;
 }

@@ -4,8 +4,8 @@ import { CenterContainer } from "../components/CenterContainer";
 import { RightContainer } from "../components/RightContainer";
 import "../components/styles/carta.css";
 
-function Carta() {
-  return <div>Carta</div>;
+function Inicio() {
+  return <div>INICIO</div>;
 }
 
-export { Carta };
+export { Inicio };

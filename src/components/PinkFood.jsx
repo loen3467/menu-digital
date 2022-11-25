@@ -1,6 +1,5 @@
 import React from "react";
 import plato from "../assets/image/plato.svg";
-import "./styles/pinkFood.css";
 
 function PinkFood(props) {
   // [{
