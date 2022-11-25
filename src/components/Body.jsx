@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./styles/leftContainer.css";
 import "./styles/centerContainer.css";
 import "./styles/header.css";
@@ -9,11 +9,9 @@ import vector from "../assets/image/vector.svg";
 import { MenuItems } from "./itemsAPI/MenuItems";
 import { Descriptions } from "./itemsAPI/Descriptions";
 import { NavbarItems } from "./itemsAPI/NavbarItems";
-
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import { Inicio } from "../pages/Inicio";
 import { Navbar } from "../pages/Navbar";
-import { Info } from "../pages/Info";
 import { Voto } from "../pages/Voto";
 import { Pedido } from "../pages/Pedido";
 
@@ -51,12 +49,25 @@ function Body() {
     setNavbars(result);
   };
 
+  const [product, setProduct] = useState([]);
+
+  useEffect(() => {
+    //montado
+    {
+      filterResult3("Carta"), filterResult("Entrada"), filterResult2(11);
+    }
+
+    return () => {
+      //desmontado
+    };
+  }, []);
+
   return (
     <div>
       <BrowserRouter>
         <div className="header">
           <div className="header-top">
-            <Link to="/">
+            <Link to="/" onClick={() => filterResult2(11)}>
               <img src={logo} />
             </Link>
 
@@ -74,9 +85,12 @@ function Body() {
                 >
                   Bebidas
                 </button>
-              </Link>
-              <Link to="/info">
-                <button className="nv-red">Info</button>
+                <button
+                  onClick={() => filterResult3("Info")}
+                  className="nv-red"
+                >
+                  Info
+                </button>
               </Link>
 
               <Link to="/voto" className="nv-red">
@@ -93,7 +107,6 @@ function Body() {
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="navbar" element={<Navbar />} />
-          <Route path="info" element={<Info />} />
           <Route path="voto" element={<Voto />} />
           <Route path="pedido" element={<Pedido />} />
           <Route path="*" element={<div>ERROR 404</div>} />
@@ -109,8 +122,8 @@ function Body() {
                 <>
                   <button
                     key={id}
-                    className="ls-red"
                     onClick={() => filterResult(title)}
+                    className="ls-red"
                   >
                     {title}
                   </button>
@@ -125,7 +138,7 @@ function Body() {
               const { id, image, title, description, price, btnAdd } = food;
               return (
                 <>
-                  <button
+                  <div
                     className="yellow-food"
                     key={id}
                     onClick={() => filterResult2(id)}
@@ -141,7 +154,7 @@ function Body() {
                       <div className="price">{price}</div>
                       <div className="orange-add">{btnAdd}</div>
                     </div>
-                  </button>
+                  </div>
                 </>
               );
             })}

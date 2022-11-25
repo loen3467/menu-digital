@@ -80,5 +80,32 @@ const MenuItems = [
     price: "Bs. 22,00",
     btnAdd: "+ ADD",
   },
+  {
+    id: 41,
+    category: "Postres",
+    image: "https://i94.servimg.com/u/f94/20/44/55/20/plato10.png",
+    title: "1. Postres",
+    description: "Medium | Cheese, hungarian pepper",
+    price: "Bs. 22,00",
+    btnAdd: "+ ADD",
+  },
+  {
+    id: 42,
+    category: "Postres",
+    image: "https://i94.servimg.com/u/f94/20/44/55/20/plato10.png",
+    title: "2. Postres",
+    description: "Medium | Cheese, hungarian pepper",
+    price: "Bs. 22,00",
+    btnAdd: "+ ADD",
+  },
+  {
+    id: 43,
+    category: "Postres",
+    image: "https://i94.servimg.com/u/f94/20/44/55/20/plato10.png",
+    title: "3. Postres",
+    description: "Medium | Cheese, hungarian pepper",
+    price: "Bs. 22,00",
+    btnAdd: "+ ADD",
+  },
 ];
 export { MenuItems };

@@ -3,6 +3,7 @@
     height: 120px;
     background: linear-gradient(90deg, #EAC130 25.03%, rgba(255, 255, 255, 0) 100%);
     border-radius: 25px 0 0 25px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -52,28 +53,11 @@
     justify-content: center;
 }
 
-.pink-food {
-    width: 387px;
-    height: 120px;
+.yellow-food:hover {
     background: linear-gradient(90deg, #FF939A 44.3%, rgba(255, 255, 255, 0) 100%);
-    border-radius: 25px 0 0 25px;
-    border: 3px solid #FF939A;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    color: black;
 }
 
-.pink-add {
-    margin-bottom: -1px;
-    margin-right: -1px;
-    padding: 8px;
-    font-size: 24px;
-    font-weight: 800;
+.orange-add:active {
     background-color: #FF939A;
-    color: white;
-    border-radius: 13px 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
